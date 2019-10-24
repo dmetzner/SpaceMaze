@@ -44,7 +44,7 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator DeathAnimation()
     {
-        yield return new WaitForSeconds(1.8f);
+        yield return new WaitForSeconds(1.6f);
         Destroy(gameObject);
     }
 

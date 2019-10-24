@@ -10,7 +10,10 @@ public class CameraMovement : MonoBehaviour
     public PlayerController Player;
     public PlayerController Player2;
     public int DeathBarrierDamage = 3;
+    public AudioClip DeathBarrierClip;
 
+    private float clipTimer;
+    private bool clipReloaded = true;
     private float deathBarrierX;
 
     void Start()
@@ -39,6 +42,12 @@ public class CameraMovement : MonoBehaviour
             UpdateCameraPosition(Player.transform.position.y, Player.IsAlive());
             DeathBarrier(Player);
         }
+
+        clipTimer -= Time.deltaTime;
+        if (clipTimer < 0)
+        {
+            clipReloaded = true;
+        }
     }
 
     private void UpdateCameraPosition(float y, bool is_alive)
@@ -55,6 +64,12 @@ public class CameraMovement : MonoBehaviour
         if (Player.transform.position.x + deathBarrierX + 1 < transform.position.x)
         {
             Player.ChangeHealth(-1 * DeathBarrierDamage);
+            if (clipReloaded)
+            {
+                clipReloaded = false;
+                Player.PlaySound(DeathBarrierClip);
+                clipTimer = 2f;
+            }
         }
     }
 }
