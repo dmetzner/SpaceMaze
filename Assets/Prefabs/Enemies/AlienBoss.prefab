@@ -102,7 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   IceMaterial: {fileID: 2100000, guid: 9ed82dbb7ec6291449fb8709e3019461, type: 2}
-  DeathSound: {fileID: 8300000, guid: 431725982fc85c342880c0dc04dd46ec, type: 3}
+  DeathSound: {fileID: 8300000, guid: 6ee03ce86fc472548a1695377fadf5b0, type: 3}
 --- !u!61 &1709911971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
   ProjectileSpeed: 700
   ShootingDelay: 0.35
   AutomaticFire: 1
-  ShootClip: {fileID: 8300000, guid: 7d409763ab6b59a41a7578325b5a12bd, type: 3}
+  ShootClip: {fileID: 8300000, guid: f1d2a0415bd44d94f8e296996951c13b, type: 3}
 --- !u!114 &1709911972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 1
   DieOnImpact: 0
-  crashClip: {fileID: 8300000, guid: 57fafad0f5d3b694e83ae0e148f673db, type: 3}
+  crashClip: {fileID: 8300000, guid: 235c1983fd03d6e46a8a64f6b8ea4c84, type: 3}
 --- !u!114 &1526905466
 MonoBehaviour:
   m_ObjectHideFlags: 0

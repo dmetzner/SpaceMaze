@@ -98,4 +98,9 @@ public class BasicHealthSystem : MonoBehaviour
     {
         deathEvent.AddListener(callback);
     }
+
+    public void RegainFullLife()
+    {
+        currentHealth = MaxHealth;
+    }
 }

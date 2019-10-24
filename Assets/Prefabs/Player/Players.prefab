@@ -4860,7 +4860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816a972a6590b5d44b001cc19f47f3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 7
+  MaxHealth: 10
   InvincibleTime: 1
   Destructable: 0
 --- !u!114 &7088734963341798802
@@ -4882,7 +4882,7 @@ MonoBehaviour:
   ProjectileSpeed: 700
   ShootingDelay: 0.2
   AutomaticFire: 0
-  ShootClip: {fileID: 8300000, guid: 7d409763ab6b59a41a7578325b5a12bd, type: 3}
+  ShootClip: {fileID: 8300000, guid: f1d2a0415bd44d94f8e296996951c13b, type: 3}
 --- !u!95 &4483855067561541887
 Animator:
   serializedVersion: 3
@@ -4921,7 +4921,7 @@ MonoBehaviour:
   ProjectileSpeed: 700
   ShootingDelay: 3
   AutomaticFire: 0
-  ShootClip: {fileID: 8300000, guid: c9a1f422646b3974394b1c196c29b712, type: 3}
+  ShootClip: {fileID: 8300000, guid: 6eb79ff391c1bb54da27caffdf95da89, type: 3}
 --- !u!82 &4650436697619516383
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5068,8 +5068,8 @@ MonoBehaviour:
   Player2: {fileID: 8019965085640622950}
   EndScreenIndex: 2
   EndScreenDuration: 2
-  NextLevelIndex: 3
-  GameOverClip: {fileID: 8300000, guid: 7f00e77a399baa948bda80843fe3ebdd, type: 3}
+  NextLevelIndex: 4
+  GameOverClip: {fileID: 8300000, guid: f7a442f5a75a6b44f92b918ca909b301, type: 3}
 --- !u!82 &7798850032057414224
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5328,7 +5328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816a972a6590b5d44b001cc19f47f3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 7
+  MaxHealth: 10
   InvincibleTime: 1
   Destructable: 0
 --- !u!114 &8442645063842922667
@@ -5350,7 +5350,7 @@ MonoBehaviour:
   ProjectileSpeed: 700
   ShootingDelay: 0.2
   AutomaticFire: 0
-  ShootClip: {fileID: 8300000, guid: 7d409763ab6b59a41a7578325b5a12bd, type: 3}
+  ShootClip: {fileID: 8300000, guid: f1d2a0415bd44d94f8e296996951c13b, type: 3}
 --- !u!95 &8442645063842922666
 Animator:
   serializedVersion: 3
@@ -5389,7 +5389,7 @@ MonoBehaviour:
   ProjectileSpeed: 700
   ShootingDelay: 3
   AutomaticFire: 0
-  ShootClip: {fileID: 8300000, guid: c9a1f422646b3974394b1c196c29b712, type: 3}
+  ShootClip: {fileID: 8300000, guid: 6eb79ff391c1bb54da27caffdf95da89, type: 3}
 --- !u!82 &8442645063842922668
 AudioSource:
   m_ObjectHideFlags: 0

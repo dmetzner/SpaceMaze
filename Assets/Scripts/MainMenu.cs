@@ -9,22 +9,38 @@ public class MainMenu : MonoBehaviour
     public void PlaySinglePlayer()
     {
         Options.CoopMode = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Options.CheckPointIndex = 1;
+        SceneManager.LoadScene(1);
     }
 
     public void PlayCoopMode()
     {
         Options.CoopMode = true;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Options.CheckPointIndex = 1;
+        SceneManager.LoadScene(1);
+    }
+
+    public void TryAgain()
+    {
+        SceneManager.LoadScene(Options.CheckPointIndex);
     }
 
     public void OpenMenu()
     {
         SceneManager.LoadScene(0);
     }
+    public void OpenSettings()
+    {
+        SceneManager.LoadScene(5);
+    }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void ChangeDifficulty(float new_value)
+    {
+        Options.difficulty = new_value / 10.0f;
     }
 }

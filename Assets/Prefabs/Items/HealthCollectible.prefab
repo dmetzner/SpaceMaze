@@ -140,4 +140,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 1
-  HealClip: {fileID: 8300000, guid: 583cf3132fd816446b1f134e7a019799, type: 3}
+  HealClip: {fileID: 8300000, guid: a4cf30a0cf9685d42b76b5e3095f1fa0, type: 3}

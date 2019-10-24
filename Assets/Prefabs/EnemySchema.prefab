@@ -106,6 +106,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -56.749004
       objectReference: {fileID: 0}
+    - target: {fileID: 1464632199, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
+      propertyPath: ProjectileSpeed
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464632199, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
+      propertyPath: ShootingDelay
+      value: 2.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
 --- !u!4 &1488067075370506269 stripped
@@ -180,6 +188,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -56.749004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464632199, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
+      propertyPath: ShootingDelay
+      value: 2.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
@@ -256,6 +268,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 51.301003
       objectReference: {fileID: 0}
+    - target: {fileID: 1542884167, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
+      propertyPath: ProjectileSpeed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542884167, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
+      propertyPath: ShootingDelay
+      value: 2.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
 --- !u!4 &8689606919496092806 stripped
@@ -330,6 +350,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 51.301003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542884167, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
+      propertyPath: ProjectileSpeed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542884167, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
+      propertyPath: ShootingDelay
+      value: 2.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
@@ -406,6 +434,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 51.301003
       objectReference: {fileID: 0}
+    - target: {fileID: 1542884167, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
+      propertyPath: ProjectileSpeed
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542884167, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
+      propertyPath: ShootingDelay
+      value: 2.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
 --- !u!4 &822931719266048169 stripped
@@ -480,6 +516,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -56.749004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464632199, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
+      propertyPath: ProjectileSpeed
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464632199, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
+      propertyPath: ShootingDelay
+      value: 2.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
@@ -556,6 +600,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -56.749004
       objectReference: {fileID: 0}
+    - target: {fileID: 1464632199, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
+      propertyPath: ProjectileSpeed
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464632199, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
+      propertyPath: ShootingDelay
+      value: 2.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b37b881f0b25d314d8fe00a83e7367bd, type: 3}
 --- !u!4 &8307514760587456856 stripped
@@ -631,6 +683,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 51.301003
       objectReference: {fileID: 0}
+    - target: {fileID: 1542884167, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
+      propertyPath: ProjectileSpeed
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542884167, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
+      propertyPath: ShootingDelay
+      value: 2.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12f0eaa0a8c16dc4399504e84e85c6b9, type: 3}
 --- !u!4 &2954466164921757874 stripped
@@ -646,6 +706,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4676017699526838324}
     m_Modifications:
+    - target: {fileID: 1201113877399426058, guid: d91f8c5fcb85f80479cc9f883d9e28bd,
+        type: 3}
+      propertyPath: ProjectileSpeed
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201113877399426058, guid: d91f8c5fcb85f80479cc9f883d9e28bd,
+        type: 3}
+      propertyPath: ShootingDelay
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201113877399426061, guid: d91f8c5fcb85f80479cc9f883d9e28bd,
+        type: 3}
+      propertyPath: Speed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7385855642374135850, guid: d91f8c5fcb85f80479cc9f883d9e28bd,
         type: 3}
       propertyPath: m_Name

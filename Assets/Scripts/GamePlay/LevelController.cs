@@ -49,6 +49,7 @@ public class LevelController : MonoBehaviour
 
     public void MoveToNextLevel()
     {
+        Options.CheckPointIndex = NextLevelIndex;
         SceneManager.LoadScene(NextLevelIndex);
     }
 

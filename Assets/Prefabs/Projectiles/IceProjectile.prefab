@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostile: 0
-  HitObjectClip: {fileID: 8300000, guid: 9fd18f40b877c3e45959e28de08f7dd5, type: 3}
+  HitObjectClip: {fileID: 8300000, guid: 56d92e40db45c4c499b86ac1832a634b, type: 3}
 --- !u!50 &4198420097782966788
 Rigidbody2D:
   serializedVersion: 4

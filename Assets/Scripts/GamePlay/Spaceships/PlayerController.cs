@@ -38,6 +38,9 @@ public class PlayerController : MonoBehaviour
 
         UIHealthBar.instance.SetValue(1, PlayerNumber); 
         UIManaBar.instance.SetValue(1, PlayerNumber); 
+
+        healthSystem.MaxHealth = (int) (healthSystem.MaxHealth * Options.difficulty);
+        healthSystem.RegainFullLife();
     }
 
     // Update is called once per frame
