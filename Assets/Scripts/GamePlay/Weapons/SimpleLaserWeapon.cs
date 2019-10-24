@@ -13,21 +13,22 @@ public class SimpleLaserWeapon : MonoBehaviour
     public bool AutomaticFire = true;
     public AudioClip ShootClip;
 
-    AudioSource audioSource;
-
+    private AudioSource audioSource;
+    private BasicHealthSystem healthSystem;
     private bool weaponIsLoaded = true;
     private float shootingDelayTimer = 0.8f; 
     new private bool enabled = true;
 
     private void Start() 
     {
+        healthSystem = GetComponent<BasicHealthSystem>();
         audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     public void Update()
     {
-        if (!enabled)
+        if (!enabled || healthSystem.isDead())
         {
             return;
         }

@@ -10,18 +10,20 @@ public class DirectionalMovement : MonoBehaviour
 
     private float traverseTimer;
     new private bool enabled = true;
+    private BasicHealthSystem healthSystem;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        healthSystem = GetComponent<BasicHealthSystem>();
         traverseTimer = TimeTillTraverse;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!enabled)
+        if (!enabled || healthSystem.isDead())
         {
             return;
         }

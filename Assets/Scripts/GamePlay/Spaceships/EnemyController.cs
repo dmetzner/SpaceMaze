@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     private CollisionController collisionController;
     private AudioSource audioSource;
     private Animator animator;
+    private Renderer renderer;
 
     private void Start()
     {
@@ -22,6 +23,7 @@ public class EnemyController : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         collisionController = GetComponent<CollisionController>();
+        renderer = GetComponent<Renderer>();
 
         healthSystem = GetComponent<BasicHealthSystem>();
         healthSystem.SubscribeToDeathEvent(HandleDeath);
@@ -29,8 +31,9 @@ public class EnemyController : MonoBehaviour
 
     private void HandleDeath()
     {
-        animator.SetBool("Exploded", true);
         ShutDown();
+        animator.SetBool("Exploded", true);
+        renderer.material = DefaultMaterial;
         collisionController.setEnabled(false);
         if (audioSource != null && DeathSound != null) 
         {
@@ -71,25 +74,26 @@ public class EnemyController : MonoBehaviour
 
     private IEnumerator IceProcess(float duration)
     {
-        Renderer renderer = GetComponent<Renderer>();
-
-        ShutDown();
-
-        renderer.material = IceMaterial;
-
-        yield return new WaitForSeconds(duration);
-
-        renderer.material = DefaultMaterial;
-
-        if (null != simpleLaserWeapon)
+        if (!healthSystem.isDead())
         {
-            simpleLaserWeapon.SetEnabled(true);
-        }
-    
-        if (null != directionalMovement)
-        {
-            directionalMovement.SetEnabled(true);
-        }
+            ShutDown();
+
+            renderer.material = IceMaterial;
+
+            yield return new WaitForSeconds(duration);
+            
+            renderer.material = DefaultMaterial;
+
+            if (null != simpleLaserWeapon)
+            {
+                simpleLaserWeapon.SetEnabled(true);
+            }
+
+            if (null != directionalMovement)
+            {
+                directionalMovement.SetEnabled(true);
+            }
+        } 
     }
 
     public void PlaySound(AudioClip audio)
